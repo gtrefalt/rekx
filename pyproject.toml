@@ -6,6 +6,9 @@ authors = ["Nikos Alexandris"]
 license = "MIT"
 readme = "README.md"
 
+[tool.poetry.scripts]
+rekx = "rekx.cli:app"
+
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
 rich = "^13.7.0"
